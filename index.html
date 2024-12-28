@@ -20,13 +20,14 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <img src="logo.png" height="62" width="62" alt="Today I Loearned Logo" />
       <h1>Today I Learned!</h1>
       <button>Share a fact!</button>
     </header>
     <form class="fact-form">
       <input type="text" placeholder="Share a fact with the world" />
+      <span>200</span>
       <input type="text" placeholder="Trust worthy spurce" />
       <select>
         <option value="">Choose category:</option>
@@ -52,11 +53,13 @@
       </aside>
       <section>
         <ul>
-          <li>
-            <p class="fact">
+          <li class="fact">
+            <p>
               React is being developed by Meta (formerly facebook)
               <a href="https://opensource.fb.com/" target="_blank">(Sourse)</a>
-              <span class="tag">#Technology#</span>
+              <span class="tag" style="background-color: #3b82f6"
+                >#Technology#</span
+              >
             </p>
             <div>
               <button>👍 <strong>30</strong></button>
@@ -74,7 +77,9 @@
                 target="_blank"
                 >Sourse</a
               >
-              <span class="tag">#Society#</span>
+              <span class="tag" style="background-color: #eab308"
+                >#Society#</span
+              >
             </p>
             <div>
               <button>👍 <strong>10</strong></button>
