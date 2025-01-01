@@ -10,7 +10,9 @@ body {
   font-family: "Sono", sans-serif;
   padding: 40px 64px;
 }
-
+.hidden {
+  display: none !important;
+}
 /* MAIN LAYOUT */
 .container {
   width: 1500px;
